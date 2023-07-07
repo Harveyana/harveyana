@@ -1,0 +1,80 @@
+body {   
+    background: #1f0345;
+    color: rgb(219, 219, 219);
+}
+header {
+    color: #F4F6FC; 
+}
+#header2 {
+    background: #1f0345;
+}
+footer {
+    background: #15022e;
+}
+.btn:first-of-type .action-btn {
+    color: white;
+    border: none;
+    box-shadow: 0px 15px 20px #15022e;
+    background: linear-gradient(to right, #2d23f7 ,#6a38d8);
+}
+.btn:first-of-type .action-btn:hover {
+    background: linear-gradient(to right, #ee1d16, #ff6a00);
+    box-shadow: 0px 15px 20px #ff6a005d;
+}
+.action-btn {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.action-btn:hover{
+    transform: scale(1.1);
+    color: #ff4800;
+    border: 2px solid #ff4800;
+}
+.action-btn a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.ui-images {
+    filter: drop-shadow(2px 6px 10px #15022e);
+    -webkit-filter: drop-shadow(2px 6px 10px #15022e);
+}
+.field {
+    background: #15022e;
+}
+textarea {
+    height: 150px;
+    resize: none;
+    width: 99%;
+    scrollbar-width: 9px;              
+    scrollbar-color: #490FCF ;
+}
+textarea::-webkit-scrollbar {
+    width: 9px;
+}
+textarea::-webkit-scrollbar-thumb {
+    background: #490FCF;
+    border-radius: 10px;
+    height: 10px;
+}
+input, 
+textarea {
+    background: #15022e;
+    border: none;
+    caret-color: #490FCF;
+    color: #F4F6FC;
+    font-weight: 400;
+}
+input::placeholder,
+input:-ms-input-placeholder,
+input::-webkit-input-placeholder,
+textarea::placeholder,
+textarea:-ms-input-placeholder,
+textarea::-webkit-input-placeholder{
+    color: #490FCF;
+}
+.field:nth-child(5) {
+   background: linear-gradient(to right, #1810b2c3 50% ,rgb(68, 13, 120));
+}
