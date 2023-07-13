@@ -280,7 +280,7 @@ section .hey {
 }
 /* micrographia.design thumbnail */
 .grid-item:nth-child(5) .thumbnail {
-    background: url('../img/mentorled.png');
+    background: url('../img/commuinify.png');
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
