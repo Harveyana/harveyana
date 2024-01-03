@@ -252,41 +252,50 @@ section .hey {
 }
 /* anayo.me thumbail */
 .grid-item:first-child .thumbnail {
-    background: url('../img/mouvebeta.png');
+    background: url('../img/vyre.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 /* estherewilliams.com thumbnail */
 .grid-item:nth-child(2) .thumbnail {
+    background: url('../img/jobroute.png');
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+/* estherewilliams.com thumbnail */
+.grid-item:nth-child(3) .thumbnail {
+    background: url('../img/mouvebeta.png');
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+/* estherewilliams.com thumbnail */
+.grid-item:nth-child(4) .thumbnail {
     background: url('../img/healthstack.png');
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
 }
 /* paulomotayo.com thumbnail */
-.grid-item:nth-child(3) .thumbnail {
+.grid-item:nth-child(5) .thumbnail {
     background: url('../img/teepsee.png');
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
 }
 /* micrographia.design thumbnail */
-.grid-item:nth-child(4) .thumbnail {
+.grid-item:nth-child(6) .thumbnail {
     background: url('../img/iquire.png');
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
 }
 /* micrographia.design thumbnail */
-.grid-item:nth-child(5) .thumbnail {
-    background: url('../img/eazipay.png');
-    background-size: contain;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-/* micrographia.design thumbnail */
-.grid-item:nth-child(6) .thumbnail {
+.grid-item:nth-child(7) .thumbnail {
     background: url('../img/commuinify.png');
     background-size: contain;
     background-position: left;
