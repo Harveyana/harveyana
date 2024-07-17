@@ -250,46 +250,50 @@ section .hey {
     background-position: center;
     background-repeat: no-repeat;
 }
-/* anayo.me thumbail */
+
+/* qaya thumbail */
 .grid-item:first-child .thumbnail {
-    background: url('../img/vyre.png');
+    background: url('../img/qayaAdmin.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-/* estherewilliams.com thumbnail */
-.grid-item:nth-child(2) .thumbnail {
-    background: url('../img/jobroute.png');
+/* dynamo thumbail */
+.grid-item:first-child(2) .thumbnail {
+    background: url('../img/dynamo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* fanKonnect thumbail */
+.grid-item:first-child(3) .thumbnail {
+    background: url('../img/fankonnect.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* pedivel thumbnail */
+.grid-item:nth-child(4) .thumbnail {
+    background: url('../img/pedivel.png');
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
 }
 
-/* estherewilliams.com thumbnail */
-.grid-item:nth-child(3) .thumbnail {
-    background: url('../img/mouvebeta.png');
-    background-size: contain;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-/* estherewilliams.com thumbnail */
-.grid-item:nth-child(4) .thumbnail {
+/* healthstack thumbnail */
+.grid-item:nth-child(5) .thumbnail {
     background: url('../img/healthstack.png');
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
 }
-/* paulomotayo.com thumbnail */
-.grid-item:nth-child(5) .thumbnail {
-    background: url('../img/teepsee.png');
-    background-size: contain;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-/* micrographia.design thumbnail */
+
+/* jobroutes thumbnail */
 .grid-item:nth-child(6) .thumbnail {
-    background: url('../img/iquire.png');
+    background: url('../img/jobroute.png');
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
